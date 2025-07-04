@@ -1,0 +1,61 @@
+/* Home.css */
+.home-container {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero-section {
+  margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  color: #E5A823;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 2px solid #E5A823;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.main-nav a:hover {
+  background-color: #E5A823;
+  color: white;
+}
+
+.program-section {
+  margin: 3rem 0;
+}
+
+.program-title {
+  color: #E5A823;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+footer {
+  margin-top: 3rem;
+  color: #777;
+}

@@ -5,7 +5,9 @@ const cors = require('cors');
 const ticketRoutes = require('./routes/tickets');
 const contactRoutes = require('./routes/contact');
 
+console.log('Chemin ticketController:', require.resolve('./controllers/ticketController'));
 const app = express();
+app.use('/api/tickets', ticketRoutes);
 
 // Middleware
 app.use(cors());

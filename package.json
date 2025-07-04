@@ -12,6 +12,8 @@
   "author": "Votre Nom",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.3"
   }
 }

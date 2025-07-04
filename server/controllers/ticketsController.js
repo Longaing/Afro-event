@@ -1,5 +1,6 @@
 const Ticket = require('../models/Ticket');
 const nodemailer = require('nodemailer');
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 // Create a ticket reservation
 exports.createTicket = async (req, res) => {
@@ -58,4 +59,15 @@ exports.getTickets = async (req, res) => {
       error: 'Server Error'
     });
   }
+};
+
+exports.createPaymentIntent = async (req, res) => {
+  const { amount } = req.body;
+  
+  const paymentIntent = await stripe.paymentIntents.create({
+    amount: amount * 100, // Convertir en centimes
+    currency: 'eur',
+  });
+
+  res.send({ clientSecret: paymentIntent.client_secret });
 };

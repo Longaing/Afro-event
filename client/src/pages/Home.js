@@ -1,27 +1,30 @@
-import { motion } from 'framer-motion';
+import React from 'react';
 import './Home.css';
 
 const Home = () => {
   return (
-    <div className="home">
-      <section className="hero">
-        <motion.div
-          initial={{ y: -50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-          className="hero-content"
-        >
-          <h1>Entreprendre Afro</h1>
-          <h2>Talents et inspiration</h2>
-          <button className="cta-button">Découvrir le programme</button>
-        </motion.div>
+    <div className="home-container">
+      <header className="hero-section">
+        <h1>Entreprendre Afro</h1>
+        <p className="subtitle">Talents et inspiration</p>
+      </header>
+
+      <nav className="main-nav">
+        <a href="/programme">Programme</a>
+        <a href="/intervenants">Intervenants</a>
+        <a href="/tarifs">Tarifs</a>
+        <a href="/lieu">Lieu</a>
+      </nav>
+
+      <section className="program-section">
+        <h2>Découvrir le programme</h2>
+        <h3 className="program-title">Sincère</h3>
+        <p className="program-description">Un programme authentique dédié à l'entrepreneuriat afro</p>
       </section>
 
-      <section className="program-preview">
-        <h2>Sinestre</h2>
-        <p>Programme</p>
-        {/* Add program preview content */}
-      </section>
+      <footer>
+        <p>© 2024 Afro Event</p>
+      </footer>
     </div>
   );
 };
