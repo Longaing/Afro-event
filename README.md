@@ -76,7 +76,6 @@ Animations :
 
 Transitions fluides (GSAP/Framer Motion).
 
-Effets de hover subtils sur les produits.
 
 4.2. Responsive Design
 Mobile-first (60% du trafic).
@@ -87,7 +86,7 @@ Testé sur Chrome=. (idéale sur mozilla)
 5.1. Optimisation SEO
 Balises meta optimisées (titres, descriptions).
 
-URLs propres (ex: /robe-soiree-noire).
+URLs propres (ex: /TheFoundersWeekend.com).
 
 Blog intégré pour le contenu éditorial.
 
