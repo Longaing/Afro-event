@@ -1,0 +1,1 @@
+window.NEXT_PUBLIC_APP_REDIRECT_URL = 'https://longaing.github.io/Afro-event'; 

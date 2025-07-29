@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "sonner";
 import "./globals.css";
+import { EnvProvider } from "@/components/env-provider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className="scroll-smooth">
       <body className={`${inter.variable} antialiased`}>
+        <EnvProvider />
         {children}
         <Toaster />
       </body>
