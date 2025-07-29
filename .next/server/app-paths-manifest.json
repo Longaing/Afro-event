@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/.well-known/apple-app-site-association/route": "app/.well-known/apple-app-site-association/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/notre-equipe/page": "app/notre-equipe/page.js",
+  "/page": "app/page.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/checkout_redirect/success/page": "app/checkout_redirect/success/page.js",
+  "/(legal)/privacy-policy/page": "app/(legal)/privacy-policy/page.js",
+  "/(legal)/refund-policy/page": "app/(legal)/refund-policy/page.js",
+  "/(legal)/terms-and-conditions/page": "app/(legal)/terms-and-conditions/page.js"
+}
