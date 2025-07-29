@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion } from "motion/react";
 import { BrandLogo } from "@/components/ui/brand-logo";
 import Link from "next/link";
 import { ChevronDown, ArrowUpRight } from "lucide-react";
@@ -64,9 +64,7 @@ function useScrollDirection() {
 }
 
 export function Header({ className = "" }: HeaderProps) {
-  const { scrollDirection, isVisible } = useScrollDirection();
-  const { scrollY } = useScroll();
-  const headerY = useTransform(scrollY, [0, 100], [0, -100]);
+  const { isVisible } = useScrollDirection();
 
   return (
     <motion.header

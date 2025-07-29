@@ -50,7 +50,7 @@ export function MobileNav({ className }: Props) {
             <DrawerContent>
               <div className="p-6 space-y-4">
                 <Link href="/#features" className="block py-2 text-lg font-medium hover:text-primary transition-colors">
-                  L'événement
+                  L&apos;événement
                 </Link>
                 <Link href="/#features" className="block py-2 text-lg font-medium hover:text-primary transition-colors">
                   Programme

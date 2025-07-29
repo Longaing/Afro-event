@@ -42,10 +42,9 @@ export function ParallaxSection({
 interface ParallaxTextProps {
   children: React.ReactNode;
   className?: string;
-  speed?: number;
 }
 
-export function ParallaxText({ children, className = "", speed = 0.3 }: ParallaxTextProps) {
+export function ParallaxText({ children, className = "" }: ParallaxTextProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,

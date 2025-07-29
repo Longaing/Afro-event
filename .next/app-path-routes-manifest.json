@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/.well-known/apple-app-site-association/route": "/.well-known/apple-app-site-association",
+  "/notre-equipe/page": "/notre-equipe",
+  "/page": "/",
+  "/checkout/page": "/checkout",
+  "/pricing/page": "/pricing",
+  "/checkout_redirect/success/page": "/checkout_redirect/success",
+  "/(legal)/privacy-policy/page": "/privacy-policy",
+  "/(legal)/refund-policy/page": "/refund-policy",
+  "/(legal)/terms-and-conditions/page": "/terms-and-conditions"
+}

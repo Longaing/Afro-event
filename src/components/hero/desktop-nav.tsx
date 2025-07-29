@@ -1,6 +1,6 @@
 "use client";
 
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
 import Link from "next/link";
@@ -47,7 +47,7 @@ export function DesktopNav({ className }: Props) {
                       whileHover={{ y: -2 }}
                       className="relative"
                     >
-                      L'événement
+                      L&apos;événement
                       <motion.span
                         className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"
                         initial={{ width: 0 }}

@@ -8,13 +8,7 @@ import {
   Users, 
   TrendingUp, 
   Lightbulb, 
-  Globe, 
-  Award, 
-  Calendar,
-  MapPin,
-  Clock,
-  Star,
-  Zap
+  Star
 } from "lucide-react";
 
 export function Showcase() {
@@ -89,10 +83,10 @@ export function Showcase() {
           Pourquoi Founders ?
         </Badge>
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-          L'événement qui transforme vos ambitions en réalité
+          L&apos;événement qui transforme vos ambitions en réalité
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-          Plus qu'un simple événement, Founders est une plateforme de transformation 
+          Plus qu&apos;un simple événement, Founders est une plateforme de transformation 
           pour les entrepreneurs de la diaspora africaine en Europe.
         </p>
       </motion.div>
@@ -179,10 +173,10 @@ export function Showcase() {
       >
         <div className="text-center mb-8">
           <h3 className="text-2xl font-bold mb-2">
-            L'impact de Founders
+            L&apos;impact de Founders
           </h3>
           <p className="text-muted-foreground">
-            Des chiffres qui parlent d'eux-mêmes
+            Des chiffres qui parlent d&apos;eux-mêmes
           </p>
         </div>
         

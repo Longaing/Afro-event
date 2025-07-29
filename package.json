@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "export": "next build && next export",
+    "export": "next build",
     "gh-pages": "npm run export && touch out/.nojekyll"
   },
   "author": [
