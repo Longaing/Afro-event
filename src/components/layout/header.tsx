@@ -12,12 +12,8 @@ interface HeaderProps {
 
 const navItems = [
   {
-    label: "Accueil",
-    href: "/",
-  },
-  {
-    label: "À propos",
-    href: "/#showcase",
+    label: "L'événement",
+    href: "/#features",
   },
   {
     label: "Programme",
@@ -25,11 +21,11 @@ const navItems = [
     hasDropdown: true,
   },
   {
-    label: "Notre équipe",
-    href: "/notre-equipe",
+    label: "Billetterie",
+    href: "/pricing",
   },
   {
-    label: "Galerie",
+    label: "Contact",
     href: "/terms-and-conditions",
   },
 ];
