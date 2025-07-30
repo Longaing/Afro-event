@@ -3,6 +3,7 @@
 import { BackgroundBlur } from "@/components/ui/background-blur";
 import { Pill, PillAvatar, PillAvatarGroup } from "@/components/ui/pill";
 import { motion } from "motion/react";
+import { getImagePath } from "@/lib/image-utils";
 
 export function Hero() {
   return (
@@ -16,10 +17,10 @@ export function Hero() {
         >
           <Pill>
             <PillAvatarGroup className="hidden sm:flex">
-              <PillAvatar src="/avatars/1.jpg" />
-              <PillAvatar src="/avatars/2.jpg" />
-              <PillAvatar src="/avatars/3.jpg" />
-              <PillAvatar src="/avatars/4.jpg" />
+              <PillAvatar src={getImagePath("/avatars/1.jpg")} />
+              <PillAvatar src={getImagePath("/avatars/2.jpg")} />
+              <PillAvatar src={getImagePath("/avatars/3.jpg")} />
+              <PillAvatar src={getImagePath("/avatars/4.jpg")} />
             </PillAvatarGroup>
             <p className="text-muted-foreground px-2 text-xs font-medium sm:border-l-1 sm:text-sm">
               Rejoignez <span className="text-foreground">la plus grande communauté</span> pour les jeunes entrepreneurs de la diaspora a Paris

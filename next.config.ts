@@ -1,9 +1,14 @@
 import type { NextConfig } from "next";
 
+const isProduction = process.env.NODE_ENV === 'production';
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
+
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/Afro-event',      // Nom exact du dépôt
-  assetPrefix: '/Afro-event/',  // Préfixe pour les assets
+  ...(isProduction && {
+    basePath: '/Afro-event',
+    assetPrefix: '/Afro-event/',
+  }),
 };
 
 export default nextConfig;

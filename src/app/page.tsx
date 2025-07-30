@@ -10,6 +10,7 @@ import { ParallaxSection } from "@/components/ui/parallax-section";
 import { RevealOnScroll } from "@/components/ui/reveal-on-scroll";
 import { motion } from "motion/react";
 import { Header } from "@/components/layout/header";
+import { getImagePath } from "@/lib/image-utils";
 
 export default function Home() {
   useRedirectWarning();
@@ -34,7 +35,7 @@ export default function Home() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/backgroundV.mp4" type="video/mp4" />
+            <source src={getImagePath("/backgroundV.mp4")} type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos.
           </video>
           {/* Overlay pour assurer la lisibilité du contenu */}

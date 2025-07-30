@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/footer/footer";
 import { Badge } from "@/components/ui/badge";
+import { getImagePath } from "@/lib/image-utils";
 
 export default function NotreEquipe() {
   return (
@@ -22,7 +23,7 @@ export default function NotreEquipe() {
           <div className="flex flex-col items-center">
             <div className="relative w-48 h-48 md:w-64 md:h-64 mb-6 shadow-xl overflow-hidden border-4 border-primary rounded-full">
               <Image
-                src="/equipe/yann.jpg"
+                src={getImagePath("/equipe/yann.jpg")}
                 alt="Yann Darius OYONO"
                 fill
                 className="object-cover object-center rounded-full"
@@ -52,7 +53,7 @@ export default function NotreEquipe() {
             <div className="flex flex-col items-center">
               <div className="relative w-40 h-40 md:w-56 md:h-56 mb-6 shadow-xl overflow-hidden border-2 border-primary/70 rounded-full">
                 <Image
-                  src="/equipe/jemuel.jpg"
+                  src={getImagePath("/equipe/jemuel.jpg")}
                   alt="Jémuel TAGNE"
                   fill
                   className="object-cover object-center rounded-full"
@@ -72,7 +73,7 @@ export default function NotreEquipe() {
             <div className="flex flex-col items-center">
               <div className="relative w-40 h-40 md:w-56 md:h-56 mb-6 shadow-xl overflow-hidden border-2 border-primary/60 rounded-full">
                 <Image
-                  src="/equipe/romane.jpg"
+                  src={getImagePath("/equipe/romane.jpg")}
                   alt="Romane BAHA"
                   fill
                   className="object-cover object-center rounded-full"
@@ -102,7 +103,7 @@ export default function NotreEquipe() {
             <div className="flex flex-col items-center">
               <div className="relative w-40 h-40 md:w-56 md:h-56 mb-6 shadow-xl overflow-hidden border-2 border-primary/40 rounded-full">
                 <Image
-                  src="/equipe/ludivine.jpg"
+                  src={getImagePath("/equipe/ludivine.jpg")}
                   alt="Baha Audrey Ludivine"
                   fill
                   className="object-cover object-center rounded-full"
@@ -123,7 +124,7 @@ export default function NotreEquipe() {
             <div className="flex flex-col items-center">
               <div className="relative w-40 h-40 md:w-56 md:h-56 mb-6 shadow-xl overflow-hidden border-2 border-primary/30 rounded-full">
                 <Image
-                  src="/equipe/anaïs.jpg"
+                  src={getImagePath("/equipe/anaïs.jpg")}
                   alt="Anaïs"
                   fill
                   className="object-cover object-center rounded-full"
@@ -153,7 +154,7 @@ export default function NotreEquipe() {
             <div className="flex flex-col items-center">
               <div className="relative w-40 h-40 md:w-56 md:h-56 mb-6 shadow-xl overflow-hidden border-2 border-primary/50 rounded-full">
                 <Image
-                  src="/equipe/guy.jpeg"
+                  src={getImagePath("/equipe/guy.jpeg")}
                   alt="Guy Arnaud Longaing"
                   fill
                   className="object-cover object-center rounded-full"
@@ -173,7 +174,7 @@ export default function NotreEquipe() {
             <div className="flex flex-col items-center">
               <div className="relative w-40 h-40 md:w-56 md:h-56 mb-6 shadow-xl overflow-hidden border-2 border-primary/20 rounded-full">
                 <Image
-                  src="/equipe/landry.jpg"
+                  src={getImagePath("/equipe/landry.jpg")}
                   alt="Landry"
                   fill
                   className="object-cover object-center rounded-full"
